@@ -11,6 +11,8 @@
 @media screen and (max-width: 1250px) { } /* tablet */
 @media screen and (max-width: 650px) { } /* mobile */
 
+.inner{ width:1200px; margin:0 auto; }
+
 @media screen and (max-width: 1250px) { 
     .inner{ width:100%; padding:0 10px; }
 } /* tablet */
@@ -38,11 +40,9 @@ html::-webkit-scrollbar-thumb {background-color: var(--main-color); border-radiu
 }
 
 body{ font-family: 'Pretendard', sans-serif; font-weight: 400; font-size: 16px; letter-spacing: -0.04em; }
-section{ display:block; }
 a{ color:inherit; }
 p { word-break: keep-all; font-weight: 500; }
 b { font-weight: 700; }
-.inner{ width:1200px; margin:0 auto; }
 
 .paging_box{ padding:10px 0; display:flex; align-items: center; justify-content: center; }
 
